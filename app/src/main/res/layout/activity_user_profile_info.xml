@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user_profile_info">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/background_gardian"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="0dp">
+
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_gardian"
+                    android:padding="10dp"
+                    android:text="Name"
+                    android:textAlignment="center"
+
+                    android:id="@+id/uname"
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+                <ImageView
+
+                    android:id="@+id/imageviewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/user" />
+               <!-- <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageviewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:elevation="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/cover_gradient"
+
+                    android:backgroundTintMode="multiply"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="@color/gray"
+                    app:civ_border_width="2dp"
+                    android:layout_gravity="center"/>-->
+            </LinearLayout>
+            <!-- <ImageView
+
+                 android:layout_width="200dp"
+                 android:layout_height="159dp"
+                 android:layout_gravity="center"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginRight="20dp"
+                 android:layout_marginBottom="0dp"
+                 android:src="@drawable/changepic2" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_gardian"
+                    android:padding="10dp"
+                    android:text="Basic Information"
+
+
+
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_square"
+                        android:padding="10dp"
+                        android:text="Name"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/uname2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_top_right_button"
+                        android:padding="10dp"
+
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Student ID"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/uid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Faculty"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/ufaculty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Department"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/udept"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Session"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/usession"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Blood Group"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/ublood"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/txtcolor"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Last Donate"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/ubloodlastdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/txtcolor"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Donate Permission"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/ubloodpermission"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/txtcolor"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Gender"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ugender"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Mobile Number"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/uphn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Email"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/umail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Job"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/ujob"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Present Address"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/upresent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_left_button_right"
+                        android:padding="10dp"
+                        android:text="Permanent Address"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/upast"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bordar_buttom_right_top"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/backid"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_gardian"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

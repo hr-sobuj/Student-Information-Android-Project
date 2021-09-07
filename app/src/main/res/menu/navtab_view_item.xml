@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/tabhome"
+        android:enabled="true"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+<!--    <item
+        android:id="@+id/tabsetting"
+        android:enabled="true"
+        android:title="Contact"
+        android:icon="@drawable/mailbox"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        />-->
+
+
+
+    <item
+        android:id="@+id/tabcontact"
+        android:enabled="true"
+        android:title="Developer"
+        android:icon="@drawable/nav_dev"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

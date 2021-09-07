@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E5171</color>
+    <color name="colorPrimary1">#00BFA5</color>
+    <color name="colorPrimaryDark">#0B5071</color>
+    <color name="colorPrimaryDark1">#218797</color>
+    <color name="colorAccent">#0E5171</color>
+    <color name="green">#00C853</color>
+    <color name="reds">#477E0E</color>
+    <color name="red">#3949AB</color>
+    <color name="deepgreen">#00C853</color>
+    <color name="deepred">#B71D25</color>
+    <color name="green1">#C90707</color>
+
+
+    <color name="gradient_color">#052230</color>
+
+
+
+    <color name="colorAccent3">#000000</color>
+    <color name="black">#000</color>
+    <color name="sample">#414142</color>
+    <color name="white">#fff</color>
+    <color name="gray">#DFD7D7</color>
+
+    <color name="btncolor">#5E35B1</color>
+    <color name="btncolor2">#E1B164</color>
+    <color name="btncolor3">#E1B164</color>
+    <color name="btncolor4">#E1B164</color>
+    <color name="btncolor5">#E1B164</color>
+    <color name="btncolor6">#E1B164</color>
+
+    <color name="txtcolor">#D50000</color>
+    <color name="txtwhite">#fff</color>
+    <color name="bgbackground">#EDE4C5</color>
+    <color name="blue">#3949AB</color>
+    <color name="crd1">#00897B</color>
+    <color name="crd2">#1E71BA</color>
+    <color name="crd3">#E53935</color>
+    <color name="crd4">#FB8C00</color>
+    <color name="crd5">#5E35B1</color>
+    <color name="crd6">#0E5171</color>
+    <color name="crd8">#297FAA</color>
+    <color name="crd7">#F4511E</color>
+    <color name="red_main">#EB0D0D</color>
+    <color name="yellow">#FFE263</color>
+    <color name="success">#12D11A</color>
+
+
+</resources>

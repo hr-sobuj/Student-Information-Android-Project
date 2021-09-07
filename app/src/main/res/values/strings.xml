@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Student Informantion</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+    <string-array name="searchlist">
+
+        <item>Select One</item>
+
+
+        <item>Name</item>
+        <item>ID</item>
+        <item>Job</item>
+        <item>Email</item>
+        <item>Faculty</item>
+        <item>Department</item>
+        <item>Session</item>
+        <item>Mobile</item>
+
+
+    </string-array>
+
+    <string-array name="facultylist">
+
+        <item>Choose Your Faculty</item>
+
+
+        <item>Agriculture</item>
+        <item>CSE</item>
+        <item>BS</item>
+        <item>Fisheries</item>
+        <item>DVM</item>
+        <item>Engineering</item>
+        <item>Science</item>
+        <item>SSH</item>
+        <item>Post Graduate</item>
+
+
+    </string-array>
+
+
+    <string-array name="deptlist">
+
+        <item>Choose Your Department</item>
+
+
+        <item>Accounting</item>
+        <item>Agriculture</item>
+        <item>Architecture</item>
+        <item>CE</item>
+        <item>Chemistry</item>
+        <item>CSE</item>
+        <item>Development Studies</item>
+        <item>DVM</item>
+        <item>ECE</item>
+        <item>Economics</item>
+        <item>EEE</item>
+        <item>English</item>
+        <item>Finance and Banking</item>
+        <item>Fisheries</item>
+        <item>FPE</item>
+        <item>Management</item>
+        <item>Marketing</item>
+        <item>Mathematics</item>
+        <item>ME</item>
+        <item>Physics</item>
+        <item>Scoiology</item>
+        <item>Statistics</item>
+
+
+    </string-array>
+
+
+    <string-array name="bloodgroupList">
+        <item>Choose Blood Group</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+
+</resources>

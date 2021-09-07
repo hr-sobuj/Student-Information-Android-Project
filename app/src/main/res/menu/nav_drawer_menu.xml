@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"-->
+
+
+    <item android:title="Others">
+
+
+        <menu>
+
+
+
+        </menu>
+
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/bkhome"
+            android:title="Home"
+            android:icon="@drawable/home_home"
+
+
+            />
+        <item android:id="@+id/bk"
+            android:title="Profile"
+            android:icon="@drawable/profile"
+            />
+        <item android:id="@+id/bk1"
+            android:title="Find Student"
+            android:icon="@drawable/nav_find_student"
+            />
+        <item android:id="@+id/bk2"
+            android:title="Find Blood"
+            android:icon="@drawable/blood"
+            />
+        <item android:id="@+id/bk3"
+            android:title="Find Job"
+            android:icon="@drawable/nav_jbo"
+            />
+
+
+
+
+
+    </group>
+
+
+
+    <item android:title="Others"
+        >
+
+
+        <menu>
+           <!-- <item android:id="@+id/nvabout"
+                android:title="About Us"
+                />-->
+            <item android:id="@+id/bk4"
+                android:title="About us"
+                android:icon="@drawable/nav_aboutus"
+                />
+            <item android:id="@+id/bk5"
+                android:title="Contact us"
+                android:icon="@drawable/mailbox"
+
+                />
+
+            <item android:id="@+id/bk6"
+                android:title="Our Team"
+                android:icon="@drawable/nav_dev"
+                />
+
+
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

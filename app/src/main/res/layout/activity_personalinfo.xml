@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/background_gardian"
+    tools:context=".personalinfo">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/background_gardian"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+
+        android:background="@drawable/sampleboxborderinred">
+
+
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/sampleboxborderinred">-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:background="@drawable/sampleboxborderinred"
+            android:layout_gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student ID*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:hint="Student ID"
+                android:textAlignment="center"
+                android:background="@drawable/sampleboxborderinred"
+                android:padding="5dp"
+                android:inputType="number"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/writeYourName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:hint="Your Full Name"
+                android:textAlignment="center"
+                android:background="@drawable/sampleboxborderinred"
+                android:padding="5dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textSize="20sp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/sampleboxborderinred"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/chooseYourFaculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textSize="20sp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/sampleboxborderinred"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/chooseYourDepartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Session*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/sessionid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:hint="Session"
+                android:textAlignment="center"
+                android:background="@drawable/sampleboxborderinred"
+                android:padding="5dp"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+
+
+<!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood Group*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/sampleboxborderinred"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/searchBloodSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    />
+            </LinearLayout>-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number*"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/phn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Phone Number"
+
+                android:textSize="20sp"
+                android:background="@drawable/sampleboxborderinred"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:inputType="phone"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+<!--            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Email Address*"
+
+                android:textSize="20sp"
+                android:background="@drawable/sampleboxborderinred"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />-->
+
+
+            <RadioGroup
+                android:id="@+id/radioGrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <RadioButton
+                    android:id="@+id/maleId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text="Male"
+                    android:checked="true"
+                    android:layout_marginRight="30dp"/>
+                <RadioButton
+                    android:id="@+id/famelaId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text="Female"/>
+
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/submitYourInfo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Save Info"
+                android:textColor="#fff"
+                android:background="@drawable/btn_gardian"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:textAllCaps="false"/>
+
+            <!--   <Button
+                   android:id="@+id/back"
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:text="Back"
+                   android:textColor="#fff"
+                   android:background="@drawable/submitbordar"
+                   android:textAlignment="center"
+                   android:layout_margin="0dp"
+                   android:textSize="15dp"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:padding="7dp"
+                   android:textAllCaps="false"
+                   android:layout_marginBottom="30dp"/>-->
+
+        </LinearLayout>
+
+        <!--
+        </ScrollView>-->
+    </LinearLayout>
+
+</LinearLayout>

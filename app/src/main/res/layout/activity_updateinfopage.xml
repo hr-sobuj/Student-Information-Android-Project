@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gardian"
+    tools:context=".updateinfopage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/background_gardian"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+>
+
+<!--
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+-->
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+
+                <Button
+                    android:id="@+id/personalinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Info"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/submitbordar_outline"
+                    android:padding="15dp"
+                    android:fontFamily="@font/weare"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/bloodinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Info"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/submitbordar_outline"
+                    android:padding="15dp"
+                    android:fontFamily="@font/weare"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+
+                <Button
+                    android:id="@+id/jobaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Job,Address"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/submitbordar_outline"
+                    android:padding="15dp"
+                    android:fontFamily="@font/weare"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="40dp"
+                    />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    >
+
+
+
+      <!--              <TextView
+                        android:id="@+id/devlopertextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Developed By"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/weare"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="normal"
+                        android:padding="0dp"
+                        android:textAlignment="center"
+                        android:textIsSelectable="false"
+                        />
+                    <TextView
+                        android:id="@+id/devlopertextid1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Triangle Lab"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="60dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/weare"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="normal"
+                        android:padding="0dp"
+                        android:textAlignment="center"
+                        android:textIsSelectable="false"
+                        />-->
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+<!--
+        </ScrollView>-->
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

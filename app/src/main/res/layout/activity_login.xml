@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="2"
+    tools:context=".login">
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:padding="10dp"
+            android:src="@drawable/padlock" />
+
+        <!--    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:text="Email*"
+                android:textAlignment="center"
+
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/loginmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/submitbordar_outline"
+            android:hint="Email*"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="textPersonName"
+            android:drawableStart="@drawable/mailbox"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <!--     <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginBottom="3dp"
+                 android:text="Password*"
+                 android:textAlignment="center"
+
+                 android:textColor="#fff"
+                 android:textSize="20sp"
+                 android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/loginPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/submitbordar_outline"
+            android:hint="Password*"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:drawableLeft="@drawable/password_lock"
+            android:inputType="textPassword"
+            android:drawableTint="@color/colorPrimary"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/adminloginic"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_gardian"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Log in"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_gravity="center"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:id="@+id/textreg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:text=" Or Registration."/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:text="Terms and Policy"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:text="Privacy and Security"/>
+    <!--
+
+            android:text="\©Developed By Triangle Lab."
+    </ScrollView>
+    -->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Developed By Triangle Lab."
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
